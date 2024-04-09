@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: "Tauri", sans-serif;
+ }
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    color: aliceblue; 
+}
+
+
+.bg{
+    position: relative;
+    width: 100%;
+    height: 86vh;
+    background-image:url(image/family.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 14vh;
+    background-color: beige;
+}
+
+
+.container nav img{
+    padding-left: 169px;
+    width: 27%;
+}
+
+
+.container nav ul{
+    display: flex;
+    gap: 60px;
+    padding-right: 160px;
+}
+
+
+.container nav li{
+    list-style: none;
+    font-size: 20px;
+    color: #864c1f;
+    font-weight: 100;
+}
+
+.bg h1{
+    position: absolute;
+    text-align: center;
+    padding-top: 330px;
+    font-size: 55px;
+    padding-left: 100px;
+    font-weight: 600;
+}
+
+
+.story{
+    position: relative;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(231, 182, 118, 0.26);
+}
+
+.story button{
+  background-color: orangered;
+  color: white;
+  width: 220px;
+  height: 55px;
+  margin-top: 800px;
+ margin-right: 70px;
+}
+.story .dtl{
+    padding-top: 60px;
+   justify-content: center;
+   width: 55%;
+   height: 40vh;
+   align-items: center;
+}
+
+.story h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(100, 68, 91);
+}
+
+.story .dtl p{
+    padding-top: 6dvh;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.story .fruit .org{
+  position: absolute;
+  left: 190px;
+  padding-top: 40px;
+  width: 250px;
+
+}
+
+.story .fruit .green{
+    position: absolute;
+    right: 380px;
+    padding-top: 240px;
+    width: 250px;
+}
+
+
+.story .fruit .bottle{
+    position: absolute;
+    left: 120px;
+    padding-top: 450px;
+    width: 180px;
+  }
+
+
+  .story .fruit .pinaple{
+    position: absolute;
+    right: 380px;
+    padding-top: 540px;
+    width: 290px;
+}
+
+
+
+.story .fruit .nacked{
+    position: absolute;
+    left: 230px;
+    padding-top: 490px;
+    width: 130px;
+  }
+
+
+  .story .fruit .kevita{
+    position: absolute;
+    left: 300px;
+    padding-top: 530px;
+    width: 120px;
+  }
+
+
+  
+  .story .fruit .izza{
+    position: absolute;
+    left: 360px;
+    padding-top: 570px;
+    width: 120px;
+  }
+
+
+  .brand{
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 90vh;
+    margin-top: 60px;
+    overflow-x: hidden;
+  }
+
+  .brand h1{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 55px;
+    color: rgb(100, 68, 91);
+  }
+
+  .brand .logos img{
+    width: 380px;
+    padding: 50px;
+  }
+
+
+  .brand .logos{
+    margin-left: 200px;
+    padding-left: 0px;
+    width: 90%;
+    height: 70vh;
+  }
+  .next .h{
+    visibility: hidden;
+  }
+
+button{
+  background-color: orangered;
+  color: white;
+  width: 220px;
+  height: 55px;
+margin-left: 700px;
+margin-top: 50px;
+ border: none;
+ border-radius: 10px;
+ font-size: 20px;
+ font-weight: 600;
+}
+.btn button{
+  background-color: orangered;
+  color: white;
+  width: 220px;
+  height: 55px;
+margin-left: 830px;
+margin-top: 7px;
+ border: none;
+ border-radius: 10px;
+ font-size: 20px;
+ font-weight: 600;
+}
+
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+  background-color:rgba(214, 236, 16, 0.219);
+  
+}
+
+.footer-image{
+ padding-left: 30px;
+  width: 25%;
+  height: 60vh;
+
+}
+
+.footer-image img{
+  align-items: center;
+  justify-content: center;
+  padding-left: 150px;
+  padding-top: 170px;
+
+}
+
+.E{
+
+  margin-top: -164px;
+  margin-left: 250px;
+}
+
+.second-section {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section{
+  padding-top: 140px;
+  padding-left: 300px;
+}
+
+
+.section p{
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(100, 68, 91);
+}
+
+
+.availble{
+  margin-right: 50px;
+  text-align: end;
+  
+}
+
+.availble p{
+  padding: 10px;
+  font-size: 18px;
+  color: rgb(100, 68, 91);
+}
